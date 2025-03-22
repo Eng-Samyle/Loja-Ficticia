@@ -34,3 +34,19 @@ section {
     padding: 0.5rem;
     display: inline-block;
 }
+iframe {
+    width: 15rem;
+    height: 15rem;
+}
+.endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #5e0543;
+    gap: 5px;
+}
+.endereco h1 {
+    font-size: 2.1rem;
+    margin: 1rem;
+}
