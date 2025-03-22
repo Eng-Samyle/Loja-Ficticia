@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header {
+    background-color: #FFCFCF;
+    padding: 0.5rem 1rem;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 0; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 8rem;
+    display: block;
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.navegacao a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+main{
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    color: #300523;
+}
+.Paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 1.25rem;
+}
+main h4 {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.Titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.75rem;
+}
+.Titulos h1 {
+    font-size: 2.1rem;
+}
+span {
+    color: #d10575;
+}
+.subtitulo{
+    font-size: 1.55rem;
+}
+.penultimaMensagem {
+    margin: 0.5rem 0 0 1.5rem;
+    font-size: 1.5rem;
+}
+.ultimaMensagem {
+    margin: 0.5rem 0 0 7rem;
+    font-size: 1.5rem;
+}
