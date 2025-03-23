@@ -34,6 +34,7 @@ section {
     padding: 0.5rem;
     display: inline-block;
 }
+/* Página contatos */
 iframe {
     width: 15rem;
     height: 15rem;
@@ -45,6 +46,7 @@ iframe {
     background-color: #fff;
     color: #5e0543;
     gap: 5px;
+    font-size: 1.2rem;
 }
 .endereco h1 {
     font-size: 2.1rem;
